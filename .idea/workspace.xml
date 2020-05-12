@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589308203801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Comparison of Two tasks">
+      <created>1589308280485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589308280485</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +99,7 @@
     <MESSAGE value="Sprint backlog and task estimation intro done" />
     <MESSAGE value="Explanation of creteria and points system" />
     <MESSAGE value="Tasks and their value added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks and their value added" />
+    <MESSAGE value="Comparison of Two tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparison of Two tasks" />
   </component>
 </project>
