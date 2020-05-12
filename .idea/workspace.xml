@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ee2997d-e1eb-4ea8-8cf8-020e9b789f1f" name="Default Changelist" comment="" />
+    <list default="true" id="3ee2997d-e1eb-4ea8-8cf8-020e9b789f1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,28 @@
       <updated>1589306016494</updated>
       <workItem from="1589306021230" duration="885000" />
     </task>
+    <task id="LOCAL-00001" summary="Sprint backlog and task estimation intro done">
+      <created>1589308038471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589308038471</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Explanation of creteria and points system">
+      <created>1589308119858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589308119858</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tasks and their value added">
+      <created>1589308203801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589308203801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +87,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sprint backlog and task estimation intro done" />
+    <MESSAGE value="Explanation of creteria and points system" />
+    <MESSAGE value="Tasks and their value added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks and their value added" />
   </component>
 </project>
