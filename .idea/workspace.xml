@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee2997d-e1eb-4ea8-8cf8-020e9b789f1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SofwareQualityAssignment/TestJunit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SofwareQualityAssignment/TestJunit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestJunit.java" afterDir="false" />
     </list>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589375063286</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test Passed for creation of a survey">
+      <created>1589375419635</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589375419635</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +145,7 @@
     <MESSAGE value="Junit Jars and Test configuration" />
     <MESSAGE value="Controller created" />
     <MESSAGE value="Test created for survey failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test created for survey failed" />
+    <MESSAGE value="Test Passed for creation of a survey" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Passed for creation of a survey" />
   </component>
 </project>
