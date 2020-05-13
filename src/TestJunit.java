@@ -13,8 +13,8 @@ public class TestJunit {
     @Test
     public void testAdd() {
 
-        Controller controller = new Controller("quality");
-        assertEquals("quality", controller.CreateSurvey());
+        Controller controller = new Controller();
+        assertEquals("Quality", controller.CreateSurvey());
 
     }
 

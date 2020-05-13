@@ -1,13 +1,15 @@
 public class Controller {
 
 
-    public Controller(String Surveyname)
+    public Controller()
     {
 
     }
     public String CreateSurvey()
     {
-        return "false";
+        Survey createSurvey = new Survey("Quality");
+
+        return createSurvey.getName();
     }
 
 }
