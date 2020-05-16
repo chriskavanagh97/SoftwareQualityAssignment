@@ -79,7 +79,7 @@ public class TestJunit {
         surveys.add(survey2);
         surveys.add(survey3);
 
-        assertEquals(3, controller.MultipleSurveys(surveys));
+        assertEquals(3, controller.MultipleSurveys(surveys).size());
 
     }
 
