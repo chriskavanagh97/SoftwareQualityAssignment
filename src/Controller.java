@@ -38,14 +38,7 @@ public class Controller {
 
   public Survey SurveyMultipleQuestions(String surveyname,  ArrayList<Question> questions )
   {
-      Survey createSurvey = new Survey(surveyname);
-      int count= 0;
-
-      for (int i = 0; i < questions.size(); i++){
-
-         createSurvey.addQuestion(questions.get(i));
-
-      }
+      Survey createSurvey = new Survey(surveyname, questions);
 
 
       return createSurvey;
