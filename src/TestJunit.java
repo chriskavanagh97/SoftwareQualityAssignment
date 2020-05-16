@@ -58,7 +58,6 @@ public class TestJunit {
         Question Two = new Question("Time management");
         Question Three = new Question("Customer Service");
         //Collection to represent questions
-        ArrayList<Question> questions = new ArrayList<Question>();
         //adding question to list
         questions.add(one);
         questions.add(Two);
@@ -67,6 +66,21 @@ public class TestJunit {
         Survey newsurvey = controller.SurveyMultipleQuestions("MyQuestions", questions);
 
         assertEquals(3,newsurvey.getQuestions().size());
+    }
+
+    @Test
+    public void TestingMultipleSurveys()
+    {
+        Survey survey1 = new Survey("first Survey");
+        Survey survey2 = new Survey("Second Survey");
+        Survey survey3 = new Survey("Third Survey");
+
+        surveys.add(survey1);
+        surveys.add(survey2);
+        surveys.add(survey3);
+
+        assertEquals(3, controller.MultipleSurveys(surveys));
+
     }
 
 

@@ -5,7 +5,6 @@ import static junit.framework.TestCase.assertTrue;
 
 public class Controller {
 
-    ArrayList<Survey> surveys = new ArrayList<>();
     String a = "quality";
 
     public Controller(String a)
@@ -43,5 +42,12 @@ public class Controller {
 
       return createSurvey;
   }
+    public ArrayList<Survey> MultipleSurveys(ArrayList<Survey>surveys) {
+
+
+
+
+    }
+
 
 }

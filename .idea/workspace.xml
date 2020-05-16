@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee2997d-e1eb-4ea8-8cf8-020e9b789f1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SofwareQualityAssignment/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SofwareQualityAssignment/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SofwareQualityAssignment/TestJunit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SofwareQualityAssignment/TestJunit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestJunit.java" afterDir="false" />
     </list>
@@ -91,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589306016494</updated>
       <workItem from="1589306021230" duration="885000" />
-      <workItem from="1589630948666" duration="2012000" />
+      <workItem from="1589630948666" duration="3619000" />
     </task>
     <task id="LOCAL-00001" summary="DocumentationBranch created">
       <created>1589307467689</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589633833853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tested multiple questions and fixed count questions test">
+      <created>1589635129615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589635129615</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="Test Passed for creation of a survey" />
     <MESSAGE value="Added tests to see if creation of surveys work" />
     <MESSAGE value="First tests done" />
-    <option name="LAST_COMMIT_MESSAGE" value="First tests done" />
+    <MESSAGE value="tested multiple questions and fixed count questions test" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested multiple questions and fixed count questions test" />
   </component>
 </project>
