@@ -33,7 +33,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
@@ -87,6 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589306016494</updated>
       <workItem from="1589306021230" duration="885000" />
+      <workItem from="1589630948666" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="DocumentationBranch created">
       <created>1589307467689</created>
@@ -123,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589375419635</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added tests to see if creation of surveys work">
+      <created>1589376829986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589376829986</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +145,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -146,6 +159,7 @@
     <MESSAGE value="Controller created" />
     <MESSAGE value="Test created for survey failed" />
     <MESSAGE value="Test Passed for creation of a survey" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Passed for creation of a survey" />
+    <MESSAGE value="Added tests to see if creation of surveys work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests to see if creation of surveys work" />
   </component>
 </project>

@@ -1,31 +1,54 @@
 import java.util.ArrayList;
+import java.util.List;
+
+import static junit.framework.TestCase.assertTrue;
 
 public class Controller {
 
+    ArrayList<Survey> surveys = new ArrayList<>();
+    String a = "quality";
 
-    public Controller()
+    public Controller(String a)
     {
+        this.a = a;
 
     }
-    public String CreateSurvey()
-    {
-        Survey createSurvey = new Survey("Quality");
 
-        return createSurvey.getName();
+    public Survey CreateSurvey()
+    {
+        Survey createSurvey = new Survey(a);
+        return createSurvey;
     }
 
-    public String surveyQuestions()
+
+    public Survey createSurveyQuestions(String questionname,String surveytitle )
     {
         //Creation of question object
-        Question one = new Question("Customer Service");
+        Question firstquestion = new Question(questionname);
         //Collection to represent questions
         ArrayList<Question> questions = new ArrayList<Question>();
         //adding question to list
-        questions.add(one);
+        questions.add(firstquestion);
 
-        Survey s = new Survey("My Questions" ,questions);
-        
-        return "true";
+        Survey firstquestionsurvey = new Survey(surveytitle ,questions);
+
+        return firstquestionsurvey;
+
     }
+
+  public Survey SurveyMultipleQuestions(String surveyname,  ArrayList<Question> questions )
+  {
+      Survey createSurvey = new Survey(surveyname);
+      int count= 0;
+
+      for (int i = 0; i < questions.size(); i++){
+
+         createSurvey.addQuestion(questions.get(i));
+
+      }
+
+
+      return createSurvey;
+  }
 
 }
